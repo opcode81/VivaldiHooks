@@ -44,7 +44,10 @@
 }
 #browser.tabs-bottom .tab-strip > span > .tab-position > .tab:not(.pinned),
 #browser.tabs-top .tab-strip > span > .tab-position > .tab:not(.pinned) {
-  width: 308px !important; /* value for 100% scaling (6 tabs per row); scale otherwise, e.g. 245px for 125% */
+  width: 240px !important; /* 240px for 8 tabs per row */
+}
+#browser #tabs-container .newtab {
+	display: none;
 }
 #browser.tabs-bottom .tab-strip > span > .tab-position > .tab.pinned,
 #browser.tabs-top .tab-strip > span > .tab-position > .tab.pinned {

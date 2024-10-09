@@ -32,6 +32,14 @@
   width: auto !important;
   transform: inherit !important;
 }
+#browser.tabs-bottom .tab-strip > span > .tab-position > .tab,
+#browser.tabs-top .tab-strip > span > .tab-position > .tab {
+  max-width: unset !important;
+}
+#browser.tabs-bottom .tab-strip > span > .tab-position > .tab.active,
+#browser.tabs-top .tab-strip > span > .tab-position > .tab.active {
+  height: unset !important;
+}
 #browser.tabs-bottom .tab-strip > span > .tab-position > .tab:not(.pinned),
 #browser.tabs-top .tab-strip > span > .tab-position > .tab:not(.pinned) {
   width: 220px !important;
@@ -39,6 +47,10 @@
 #browser.tabs-bottom .tab-strip > span > .tab-position > .tab.pinned,
 #browser.tabs-top .tab-strip > span > .tab-position > .tab.pinned {
   width: 30px !important;
+}
+#browser.tabs-bottom .tab-strip > span > .tab-position .tab-header,
+#browser.tabs-top .tab-strip > span > .tab-position .tab-header {
+  max-width: unset !important;
 }
 #browser.tabs-bottom .tab-strip > span > .tab-position .tab-header > .favicon > svg,
 #browser.tabs-top .tab-strip > span > .tab-position .tab-header > .favicon > svg {

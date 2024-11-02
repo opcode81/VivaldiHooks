@@ -43,7 +43,11 @@
   height: unset !important;
 }
 #browser .tab:not(.pinned) {
-  width: 240px !important;
+  width: 192px !important;
+  
+  @media(min-width: 1920px) {
+	width: 240px !important;
+  }
 }
 #browser.tabs-bottom .tab-strip > span > .tab-position > .tab.pinned,
 #browser.tabs-top .tab-strip > span > .tab-position > .tab.pinned {
